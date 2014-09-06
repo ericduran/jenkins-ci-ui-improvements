@@ -322,7 +322,10 @@
 
 (function($) {
 	$(document).ready(function() {
+
 	  $('#jenkins-head-icon').attr('src', 'http://ericduran.github.io/jenkins-ci-ui-improvements/imgs/headshot.png');
+      $('#jenkins-name-icon').replaceWith('<span class="jenkins-name-icon">Publisher\'s CI</span>');
+
 	});
 
     setInterval(function() {

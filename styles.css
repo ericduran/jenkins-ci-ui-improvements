@@ -38,4 +38,14 @@ pre.console-output {
   background: #002b36;
   color: #657b83; }
 
+#jenkins-home-link {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none; }
+
+span.jenkins-name-icon {
+  vertical-align: bottom;
+  margin-left: 13px;
+  font-weight: bold; }
+
 /*# sourceMappingURL=styles.css.map */
