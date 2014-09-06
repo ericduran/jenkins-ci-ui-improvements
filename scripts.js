@@ -22,7 +22,7 @@
             var dimension;
             if (this.classList.contains("icon-lg")) {
                 // an overly large ball is scary
-                dimension = this.getAttribute('width') * 0.5 + 8;
+                dimension = 24;
                 wrapper.style.marginRight = "15px";
                 wrapper.style.verticalAlign = "middle";
 
