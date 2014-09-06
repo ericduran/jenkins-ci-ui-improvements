@@ -1,6 +1,5 @@
 (function($) {
 
-
     setInterval(function() {
         replaceFloatyBall("img[src*='/aborted.png']", "aborted");
         replaceFloatyBall("img[src*='/blue.png']", "success");
@@ -43,4 +42,8 @@
             $(this).after(wrapper).remove();
         });
     };
+
+    $('#jenkins-head-icon').attr('src', 'http://ericduran.github.io/jenkins-ci-ui-improvements/imgs/headshot.png');
+
+
 })(jQuery);
