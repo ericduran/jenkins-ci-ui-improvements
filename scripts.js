@@ -20,13 +20,13 @@
             wrapper.className = 'doony-circle doony-circle-' + type;
             wrapper.style.display = 'inline-block';
             var dimension;
-            if (this.getAttribute('width') === "32") {
+            if (this.classList.contains("icon-lg")) {
                 // an overly large ball is scary
                 dimension = this.getAttribute('width') * 0.5 + 8;
                 wrapper.style.marginRight = "15px";
                 wrapper.style.verticalAlign = "middle";
 
-            } else if (this.getAttribute('width') === "24") {
+            } else if (this.getAttribute('width') == "24") {
                 // an overly large ball is scary
                 dimension = this.getAttribute('width') * 0.5 + 8;
                 wrapper.style.marginRight = "15px";
