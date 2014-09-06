@@ -20,7 +20,7 @@
             wrapper.className = 'doony-circle doony-circle-' + type;
             wrapper.style.display = 'inline-block';
             var dimension;
-            if (this.getAttribute('width') === "48") {
+            if (this.getAttribute('width') === "32") {
                 // an overly large ball is scary
                 dimension = this.getAttribute('width') * 0.5 + 8;
                 wrapper.style.marginRight = "15px";
