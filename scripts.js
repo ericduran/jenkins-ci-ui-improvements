@@ -33,6 +33,7 @@
                 wrapper.style.marginRight = "15px";
                 wrapper.style.verticalAlign = "middle";
             // XXX hack, this is for the main page job list
+        	}
             else {
                 dimension = this.getAttribute('width') || 12;
             }
