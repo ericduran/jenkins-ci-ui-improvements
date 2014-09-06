@@ -1,4 +1,7 @@
 (function($) {
+	$(document).ready(function() {
+	  $('#jenkins-head-icon').attr('src', 'http://ericduran.github.io/jenkins-ci-ui-improvements/imgs/headshot.png');
+	});
 
     setInterval(function() {
         replaceFloatyBall("img[src*='/aborted.png']", "aborted");
@@ -42,8 +45,5 @@
             $(this).after(wrapper).remove();
         });
     };
-
-    $('#jenkins-head-icon').attr('src', 'http://ericduran.github.io/jenkins-ci-ui-improvements/imgs/headshot.png');
-
 
 })(jQuery);
