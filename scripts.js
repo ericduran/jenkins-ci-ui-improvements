@@ -388,8 +388,6 @@
             // radius should be 12, plus 4 width
             // 16 -> dimension 16, radius 4
             var dimension;
-                        if () {
-
             if (this.classList.contains("icon-xlg")) {
                 // an overly large ball is scary
                 dimension = 30;
