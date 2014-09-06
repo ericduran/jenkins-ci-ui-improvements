@@ -30,15 +30,10 @@
             } else if (this.classList.contains("icon-lg")) {
                 // an overly large ball is scary
                 dimension = 24;
-                dimension = this.getAttribute('width') * 0.5 + 8;
                 wrapper.style.marginRight = "15px";
                 wrapper.style.verticalAlign = "middle";
             // XXX hack, this is for the main page job list
-            } else if (this.classList.contains("icon32x32")) {
-                dimension = 24;
-                wrapper.style.marginTop = "4px";
-                wrapper.style.marginLeft = "4px";
-            } else {
+            else {
                 dimension = this.getAttribute('width') || 12;
             }
             $(wrapper).css('width', dimension);
