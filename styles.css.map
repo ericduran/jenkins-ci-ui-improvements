@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;AAIA,kBAAmB;EACjB,UAAU,ECJA,OAAO;EDKjB,KAAK,ECFK,OAAO",
+"sources": ["sass/styles.scss","sass/colors.scss"],
+"names": [],
+"file": "styles.css"
+}
