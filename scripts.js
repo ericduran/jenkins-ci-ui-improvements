@@ -397,7 +397,6 @@
             } else if (this.classList.contains("icon-lg")) {
                 dimension = 24;
                 canvas.style.marginTop = "4px";
-                canvas.style.marginLeft = "4px";
             } else {
                 dimension = this.getAttribute('width') || 12;
             }
