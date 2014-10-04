@@ -36,7 +36,7 @@
 
 pre.console-output {
   background: #002b36;
-  color: #657b83; }
+  color: #949494; }
 
 #jenkins-home-link {
   font-size: 24px;
@@ -60,3 +60,9 @@ span.jenkins-name-icon {
   margin-left: 34px;
   font-weight: bold;
 }
+
+pre.console-output a,
+pre.console-output a:visited,
+pre.console-output a:link{
+  color: #949494; }
+  
