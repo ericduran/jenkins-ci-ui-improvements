@@ -49,3 +49,8 @@ span.jenkins-name-icon {
   font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
+
+#jenkins-head-icon {
+  position: absolute;
+  top: 3px;
+}
