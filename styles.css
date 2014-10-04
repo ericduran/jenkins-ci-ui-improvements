@@ -54,3 +54,9 @@ span.jenkins-name-icon {
   position: absolute;
   top: 3px;
 }
+
+span.jenkins-name-icon {
+  vertical-align: -webkit-baseline-middle;
+  margin-left: 34px;
+  font-weight: bold;
+}
